@@ -1,0 +1,52 @@
+.main-box {
+    background-color: #ffda79;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+body {
+    background-color: #141414;
+}
+
+#question {
+    font-size: 50pt;
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 100px;
+    font-stretch: extra-expanded;
+}
+
+.scoreCard {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.score {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    opacity: 1;
+    color: blanchedalmond;
+    position: absolute;
+}
+
+#progressBar {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+.shadow {
+    transition: all 1s;
+    z-index: -1;
+  }
